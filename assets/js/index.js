@@ -58,11 +58,11 @@ function renderAvater(user) {
     if (user.user_pic !== null) {
         //渲染图片头像
         $('.layui-nav-img').attr('src', user.user_pic).show()
-        $('.text-avater').hide()
+        $('.text-avatar').hide()
     } else {
         //渲染文本头像
         var first = name[0].toUpperCase()
-        $('.text-avater').html(first).show()
+        $('.text-avatar').html(first).show()
         $('.layui-nav-img').hide()
     }
 }
